@@ -1,0 +1,97 @@
+/* Custom CSS styles for the registration form */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #5d5d5d;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #cccccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #000000;
+}
+
+form {
+  margin-top: 30px;
+}
+
+label {
+  /* display: block; */
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+input[type="text"],
+input[type="email"] {
+  
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 1px solid #666666;
+  background-color: #f5f5f5;
+  color: #000000;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 15px;
+}
+
+#gender {
+  margin-bottom: 20px;
+}
+
+#skills {
+  margin-bottom: 20px;
+}
+
+button[type="submit"],
+button[type="button"] {
+  /* display:; */
+  /* width: 30%; */
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button[type="submit"]:hover,
+button[type="button"]:hover{
+  /* display:; */
+  /* width: 30%; */
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#registeredUsers {
+  margin-top: 50px;
+}
+
+#usersList {
+  list-style-type: none;
+  padding: 0;
+}
+
+#usersList li {
+  background-color: white;
+  padding-left: 5px;
+  margin-bottom: 10px;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 15px;
+  color: #000000;
+}
+

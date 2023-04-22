@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="registrationForm.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Registration Form</h1>
+    <form id="registrationForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="website">Website:</label>
+      <input type="text" id="website" name="website" required>
+      
+      <label for="imageLink">Image Link:</label>
+      <input type="text" id="imageLink" name="imageLink" required>
+      
+      <label for="gender">Gender:</label>
+      <div id="gender">
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other" required>
+        <label for="other">Other</label>
+      </div>
+      
+      <label for="skills">Skills:</label>
+      <div id="skills">
+        <input type="checkbox" id="html" name="skills" value="html">
+        <label for="html">HTML</label>
+        <input type="checkbox" id="css" name="skills" value="css">
+        <label for="css">CSS</label>
+        <input type="checkbox" id="js" name="skills" value="js">
+        <label for="js">JavaScript</label>
+      </div>
+      
+      <button type="submit">Enroll Now</button>
+      <button type="button" id="cancelBtn">Cancel</button>
+    </form>
+    
+    <div id="registeredUsers">
+      <h2>Registered Users</h2>
+      <ul id="usersList"></ul>
+    </div>
+  </div>
+
+  <script src="registrationForm.js"></script>
+</body>
+</html>
